@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global style */
+
+
+@font-face {
+    font-family: 'graphikRegular';
+    src: url('./assets/font/Graphik-Regular-Trial.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'graphikBold';
+    src: url('./assets/font/Graphik-Bold-Trial.otf') format('opentype');
+}
+
+
+
+body {
+    font-family: 'graphikRegular';
+}
+
+h1, h2, h3, h4 {
+    font-family: 'graphikBold';
+}
